@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class Logout {
 
 	WebDriver driver;
-	By logout=By.id("Log Out");
+	By logout=By.linkText("Log Out");
 	
 	public Logout(WebDriver driver)
 	{
